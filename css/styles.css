@@ -246,3 +246,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.container {
+    width: 1158px;
+    outline:2px solid tomato;
+   
+}
