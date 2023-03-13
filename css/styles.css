@@ -100,11 +100,12 @@ body {
 .list-item:focus {
     color: var(--header-hover-color)
 }
-.header-box {
+.header {
+    display: flex;
     border-bottom: 1px solid #E7E9FC;
 } 
 
-.header-content {
+.header-box {
     box-sizing: border-box;
     background: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
