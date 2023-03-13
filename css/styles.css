@@ -50,7 +50,7 @@ body {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: 2px solid tomato; */
+    outline: 2px solid tomato;
     margin: 0 auto;
     align-items: center;
 }
@@ -100,16 +100,16 @@ body {
 .list-item:focus {
     color: var(--header-hover-color)
 }
-
-.border-line {
-    border-bottom: 1px solid #E7E9FC;
-}
-
 .header-box {
+    border-bottom: 1px solid #E7E9FC;
+} 
+
+.header-content {
     box-sizing: border-box;
     background: #FFFFFF;
-    /* border-bottom: 1px solid #E7E9FC; */
+    border-bottom: 1px solid #E7E9FC;
     display: flex;
+    
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
