@@ -238,16 +238,17 @@ body {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.features-list-item-heading {
+.features-item-heading {
     color: var(--first-text-color);
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
-.features-list-item-description {
+.features-item-description {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -293,12 +294,12 @@ body {
     gap: 24px;
 }
 
-.team-list-item-box {
+.team-item-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 32px;
+    
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
                 0px 1px 1px rgba(46, 47, 66, 0.16), 
@@ -318,7 +319,7 @@ body {
     margin-bottom: 72px;
 }
 
-.team-list-item-heading {
+.team-item-heading {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -326,11 +327,10 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--first-text-color);
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
-.team-list-item-description {
+.team-item-description {
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
@@ -338,6 +338,11 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
+}
+
+.team-position {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* Футер */
@@ -354,6 +359,10 @@ body {
     margin-right: auto;
 }
 
+.footer-info {
+    max-width: 264px;
+}
+
 .footer-description {
     color: #E7E9FC;
     font-style: normal;
@@ -361,7 +370,6 @@ body {
     font-size: 16px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    max-width: 264px;
     margin-top: 16px;
 }
 
@@ -372,7 +380,10 @@ body {
 /* Сторінка Портфоліо */
 /* Фільтр */
 
-
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .filter-button {
     color: var(--order-service-button-color);
@@ -432,10 +443,10 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
+    margin-bottom: 8px;
 }
 
-.filter-list-item-description {
+.filter-item-description {
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
